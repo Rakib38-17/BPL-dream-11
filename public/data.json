@@ -1,0 +1,191 @@
+[
+  {
+    "playerName": "Virat Kohli",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "origin": "India",
+    "playerType": "Batsman",
+    "bowllingStyle": "Right-arm medium",
+    "battingStyle": "Right-hand bat",
+    "price": 1200
+  },
+  {
+    "playerName": "Babar Azam",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "origin": "Pakistan",
+    "playerType": "Batsman",
+    "bowllingStyle": "Right-arm off break",
+    "battingStyle": "Right-hand bat",
+    "price": 1100
+  },
+  {
+    "playerName": "Shakib Al Hasan",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "origin": "Bangladesh",
+    "playerType": "All-rounder",
+    "bowllingStyle": "Slow left-arm orthodox",
+    "battingStyle": "Left-hand bat",
+    "price": 1000
+  },
+  {
+    "playerName": "Jasprit Bumrah",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "origin": "India",
+    "playerType": "Bowler",
+    "bowllingStyle": "Right-arm fast",
+    "battingStyle": "Right-hand bat",
+    "price": 1150
+  },
+  {
+    "playerName": "Rashid Khan",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "origin": "Afghanistan",
+    "playerType": "Bowler",
+    "bowllingStyle": "Right-arm leg break",
+    "battingStyle": "Right-hand bat",
+    "price": 950
+  },
+  {
+    "playerName": "Ben Stokes",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "origin": "England",
+    "playerType": "All-rounder",
+    "bowllingStyle": "Right-arm fast-medium",
+    "battingStyle": "Left-hand bat",
+    "price": 1050
+  },
+  {
+    "playerName": "Kane Williamson",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "origin": "New Zealand",
+    "playerType": "Batsman",
+    "bowllingStyle": "Right-arm off break",
+    "battingStyle": "Right-hand bat",
+    "price": 900
+  },
+  {
+    "playerName": "Shaheen Afridi",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "origin": "Pakistan",
+    "playerType": "Bowler",
+    "bowllingStyle": "Left-arm fast",
+    "battingStyle": "Left-hand bat",
+    "price": 1000
+  },
+    {
+    "playerName": "Shaheen Afridi",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "origin": "Pakistan",
+    "playerType": "Bowler",
+    "bowllingStyle": "Left-arm fast",
+    "battingStyle": "Left-hand bat",
+    "price": 500
+  },
+  {
+    "playerName": "Rohit Sharma",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "origin": "India",
+    "playerType": "Batsman",
+    "bowllingStyle": "Right-arm off break",
+    "battingStyle": "Right-hand bat",
+    "price": 1100
+  },
+  {
+    "playerName": "David Warner",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "origin": "Australia",
+    "playerType": "Batsman",
+    "bowllingStyle": "Right-arm leg break",
+    "battingStyle": "Left-hand bat",
+    "price": 950
+  },
+  {
+    "playerName": "Pat Cummins",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "origin": "Australia",
+    "playerType": "Bowler",
+    "bowllingStyle": "Right-arm fast",
+    "battingStyle": "Right-hand bat",
+    "price": 1100
+  },
+  {
+    "playerName": "Trent Boult",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "origin": "New Zealand",
+    "playerType": "Bowler",
+    "bowllingStyle": "Left-arm fast-medium",
+    "battingStyle": "Left-hand bat",
+    "price": 900
+  },
+  {
+    "playerName": "Jos Buttler",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "origin": "England",
+    "playerType": "Wicketkeeper Batsman",
+    "bowllingStyle": "Right-arm medium",
+    "battingStyle": "Right-hand bat",
+    "price": 1050
+  },
+  {
+    "playerName": "Hardik Pandya",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "origin": "India",
+    "playerType": "All-rounder",
+    "bowllingStyle": "Right-arm fast-medium",
+    "battingStyle": "Right-hand bat",
+    "price": 1000
+  },
+  {
+    "playerName": "Mohammad Rizwan",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "origin": "Pakistan",
+    "playerType": "Wicketkeeper Batsman",
+    "bowllingStyle": "Right-arm medium",
+    "battingStyle": "Right-hand bat",
+    "price": 850
+  },
+  {
+    "playerName": "Andre Russell",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "origin": "West Indies",
+    "playerType": "All-rounder",
+    "bowllingStyle": "Right-arm fast",
+    "battingStyle": "Right-hand bat",
+    "price": 950
+  },
+  {
+    "playerName": "Glenn Maxwell",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "origin": "Australia",
+    "playerType": "All-rounder",
+    "bowllingStyle": "Right-arm off break",
+    "battingStyle": "Right-hand bat",
+    "price": 900
+  },
+  {
+    "playerName": "Shubman Gill",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "origin": "India",
+    "playerType": "Batsman",
+    "bowllingStyle": "Right-arm off break",
+    "battingStyle": "Right-hand bat",
+    "price": 850
+  },
+  {
+    "playerName": "Mustafizur Rahman",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "origin": "Bangladesh",
+    "playerType": "Bowler",
+    "bowllingStyle": "Left-arm fast-medium",
+    "battingStyle": "Left-hand bat",
+    "price": 800
+  },
+  {
+    "playerName": "Litton Das",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "origin": "Bangladesh",
+    "playerType": "Wicketkeeper Batsman",
+    "bowllingStyle": "Right-arm medium",
+    "battingStyle": "Right-hand bat",
+    "price": 750
+  }
+]
