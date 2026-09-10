@@ -1,16 +1,17 @@
 [
-  {
-    "playerName": "Virat Kohli",
-    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
-    "origin": "India",
+    {
+    "playerName": "Kane Williamson",
+    "playerImg": "https://i.pinimg.com/736x/21/71/11/217111854be30c005fc40d98e8958be0.jpg",
+    "origin": "New Zealand",
     "playerType": "Batsman",
-    "bowllingStyle": "Right-arm medium",
+    "bowllingStyle": "Right-arm off break",
     "battingStyle": "Right-hand bat",
-    "price": 1200
+    "price": 9000000
   },
+
   {
     "playerName": "Babar Azam",
-    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "playerImg": "https://www.geo.tv/assets/uploads/updates/2023-05-06/485807_9425055_updates.jpg",
     "origin": "Pakistan",
     "playerType": "Batsman",
     "bowllingStyle": "Right-arm off break",
@@ -19,7 +20,7 @@
   },
   {
     "playerName": "Shakib Al Hasan",
-    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "playerImg": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/291000/291025.6.jpg",
     "origin": "Bangladesh",
     "playerType": "All-rounder",
     "bowllingStyle": "Slow left-arm orthodox",
@@ -28,7 +29,7 @@
   },
   {
     "playerName": "Jasprit Bumrah",
-    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "playerImg": "https://static.cricketaddictor.com/images/posts/2026/Jasprit-Bumrah.webp?q=80",
     "origin": "India",
     "playerType": "Bowler",
     "bowllingStyle": "Right-arm fast",
@@ -37,7 +38,7 @@
   },
   {
     "playerName": "Rashid Khan",
-    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "playerImg": "https://www.aljazeera.com/wp-content/uploads/2026/08/AP26171498484083-1786175863.jpg?resize=770%2C513&quality=80",
     "origin": "Afghanistan",
     "playerType": "Bowler",
     "bowllingStyle": "Right-arm leg break",
@@ -46,25 +47,17 @@
   },
   {
     "playerName": "Ben Stokes",
-    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "playerImg": "https://www.livemint.com/lm-img/img/2023/11/27/optimize/CRICKET-IPL-STOKES-0_1701058380973_1701058384709.JPG",
     "origin": "England",
     "playerType": "All-rounder",
     "bowllingStyle": "Right-arm fast-medium",
     "battingStyle": "Left-hand bat",
     "price": 1050
   },
-  {
-    "playerName": "Kane Williamson",
-    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
-    "origin": "New Zealand",
-    "playerType": "Batsman",
-    "bowllingStyle": "Right-arm off break",
-    "battingStyle": "Right-hand bat",
-    "price": 900
-  },
+
   {
     "playerName": "Shaheen Afridi",
-    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "playerImg": "https://media.ahmedabadmirror.com/am/uploads/mediaGallery/image/1644665894994.jpg-org",
     "origin": "Pakistan",
     "playerType": "Bowler",
     "bowllingStyle": "Left-arm fast",
@@ -72,17 +65,17 @@
     "price": 1000
   },
     {
-    "playerName": "Shaheen Afridi",
-    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "playerName": "Shaheed Afridi",
+    "playerImg": "https://i.dawn.com/primary/2016/03/56ee92f26344f.jpg",
     "origin": "Pakistan",
-    "playerType": "Bowler",
-    "bowllingStyle": "Left-arm fast",
-    "battingStyle": "Left-hand bat",
+    "playerType": "Batsman",
+    "bowllingStyle": "Right-arm off break",
+    "battingStyle": "Right-hand bat",
     "price": 500
   },
   {
     "playerName": "Rohit Sharma",
-    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "playerImg": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_60/lsci/db/PICTURES/CMS/415000/415047.jpg",
     "origin": "India",
     "playerType": "Batsman",
     "bowllingStyle": "Right-arm off break",
@@ -91,7 +84,7 @@
   },
   {
     "playerName": "David Warner",
-    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "playerImg": "https://www.deccanchronicle.com/h-upload/2024/06/25/1099441-gq6awufbwaayofg.webp",
     "origin": "Australia",
     "playerType": "Batsman",
     "bowllingStyle": "Right-arm leg break",
@@ -100,7 +93,7 @@
   },
   {
     "playerName": "Pat Cummins",
-    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "playerImg": "https://e0.365dm.com/15/03/1600x900/pat-cummins-australia_3271426.jpg?20150713131259",
     "origin": "Australia",
     "playerType": "Bowler",
     "bowllingStyle": "Right-arm fast",
@@ -109,7 +102,7 @@
   },
   {
     "playerName": "Trent Boult",
-    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "playerImg": "https://caughtatpoint.com/wp-content/uploads/2018/07/Trent-Boult-2011-Test-record.jpeg",
     "origin": "New Zealand",
     "playerType": "Bowler",
     "bowllingStyle": "Left-arm fast-medium",
@@ -118,7 +111,7 @@
   },
   {
     "playerName": "Jos Buttler",
-    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "playerImg": "https://dailypioneer.com/uploads/2026/story/images/big/can-jos-buttler-end-his-lean-run-in-recent-icc-events-at-wankhede-2026-03-04.jpg",
     "origin": "England",
     "playerType": "Wicketkeeper Batsman",
     "bowllingStyle": "Right-arm medium",
@@ -127,16 +120,25 @@
   },
   {
     "playerName": "Hardik Pandya",
-    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "playerImg": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202505/hardik-pandya-224459679-16x9_0.jpg?VersionId=S.0fI.Qu6XhcIYS40QCqfiWuMtjA0eL8&size=690:388",
     "origin": "India",
     "playerType": "All-rounder",
     "bowllingStyle": "Right-arm fast-medium",
     "battingStyle": "Right-hand bat",
     "price": 1000
   },
+    {
+    "playerName": "Virat Kohli",
+    "playerImg": "https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg",
+    "origin": "India",
+    "playerType": "Batsman",
+    "bowllingStyle": "Right-arm medium",
+    "battingStyle": "Right-hand bat",
+    "price": 1200
+  },
   {
     "playerName": "Mohammad Rizwan",
-    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "playerImg": "https://d16f573ilcot6q.cloudfront.net/wp-content/uploads/2024/05/Mohammad-Rizwan.jpg",
     "origin": "Pakistan",
     "playerType": "Wicketkeeper Batsman",
     "bowllingStyle": "Right-arm medium",
@@ -145,7 +147,7 @@
   },
   {
     "playerName": "Andre Russell",
-    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "playerImg": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202603/andre-russell-274857197-16x9_0.jpg?VersionId=Yhz8JJfNKu37TDO8DPcO4jjuFiMvKI0Y&size=690:388",
     "origin": "West Indies",
     "playerType": "All-rounder",
     "bowllingStyle": "Right-arm fast",
@@ -154,7 +156,7 @@
   },
   {
     "playerName": "Glenn Maxwell",
-    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "playerImg": "https://images.thenightly.com.au/publication/C-12671317/0636aa0e161c723a1ecfe8cdcdee6f26d04e9c60-16x9-x0y132w3219h1811.jpg?imwidth=810",
     "origin": "Australia",
     "playerType": "All-rounder",
     "bowllingStyle": "Right-arm off break",
@@ -163,7 +165,7 @@
   },
   {
     "playerName": "Shubman Gill",
-    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "playerImg": "https://observervoice.com/wp-content/uploads/2025/05/Shubman-Gill-The-Rising-Star-Set-to-Guide-Indias-Next-Generation.jpg",
     "origin": "India",
     "playerType": "Batsman",
     "bowllingStyle": "Right-arm off break",
@@ -172,7 +174,7 @@
   },
   {
     "playerName": "Mustafizur Rahman",
-    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "playerImg": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/383500/383539.6.jpg",
     "origin": "Bangladesh",
     "playerType": "Bowler",
     "bowllingStyle": "Left-arm fast-medium",
@@ -181,7 +183,7 @@
   },
   {
     "playerName": "Litton Das",
-    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmktDKG2KLpufn3GW9Z_cylTMhMEiW6jragVW75aD05AOjmPrc_WoLGEV&s=10",
+    "playerImg": "https://revsportz.in/wp-content/uploads/2023/06/litton.jpeg",
     "origin": "Bangladesh",
     "playerType": "Wicketkeeper Batsman",
     "bowllingStyle": "Right-arm medium",

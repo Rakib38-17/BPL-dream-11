@@ -32,96 +32,111 @@ const PlayerCard = ({ player, coin, setCoin, selectedPlayers, setselectedPlayers
     }
 
   return (
-    <div className="group overflow-hidden rounded-2xl bg-base-100 shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
-      {/* Player Image */}
-      <figure className="relative h-64 overflow-hidden bg-base-200">
-        <img
-          src={player.playerImg}
-          alt={player.playerName}
-          className="h-full w-full  transition-transform duration-500 group-hover:scale-105"
-        />
+<div className="group overflow-hidden rounded-2xl bg-base-100 shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+  {/* Player Image */}
+  <figure className="relative h-64 overflow-hidden bg-base-200">
+    <img
+      src={player.playerImg}
+      alt={player.playerName}
+      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+    />
 
-        {/* Player Type Badge */}
-        <span className="badge badge-primary absolute right-4 top-4 px-4 py-3 font-semibold shadow-md">
+    {/* Player Type Badge */}
+    <span className="badge badge-primary absolute right-4 top-4 px-4 py-3 font-semibold shadow-md">
+      {player.playerType}
+    </span>
+  </figure>
+
+  {/* Card Content */}
+  <div className="card-body gap-4 p-4 sm:p-5">
+
+    {/* Name */}
+    <div className="flex items-center gap-2">
+      <div className="rounded-full bg-primary/10 p-2 text-primary">
+        <FaUser />
+      </div>
+
+      <h2 className="truncate text-lg font-bold sm:text-xl">
+        {player.playerName}
+      </h2>
+    </div>
+
+    {/* Country */}
+    <div className="flex items-center justify-between gap-3">
+      <div className="min-w-0">
+        <p className="text-xs uppercase tracking-wider text-base-content/50">
+          Country
+        </p>
+
+        <p className="truncate text-sm font-semibold sm:text-base">
+          {player.origin}
+        </p>
+      </div>
+
+      <div className="text-right">
+        <p className="text-xs uppercase tracking-wider text-base-content/50">
+          Role
+        </p>
+
+        <p className="text-sm font-semibold sm:text-base">
           {player.playerType}
-        </span>
-      </figure>
+        </p>
+      </div>
+    </div>
 
-      {/* Card Content */}
-      <div className="card-body gap-4 p-5">
-        {/* Name */}
-        <div className="flex items-center gap-2">
-          <div className="rounded-full bg-primary/10 p-2 text-primary">
-            <FaUser />
-          </div>
+    <div className="divider my-0"></div>
 
-          <h2 className="text-xl font-bold">{player.playerName}</h2>
+    {/* Playing Style */}
+    <div>
+      <h3 className="mb-3 text-sm font-bold uppercase tracking-wider text-base-content/60">
+        Playing Style
+      </h3>
+
+      <div className="grid grid-cols-2 gap-2 sm:gap-3">
+        <div className="rounded-xl bg-base-200 p-2 sm:p-3">
+          <p className="text-xs text-base-content/50">
+            Batting
+          </p>
+
+          <p className="mt-1 truncate text-xs font-semibold sm:text-sm">
+            {player.battingStyle}
+          </p>
         </div>
 
-        {/* Country */}
-        <div className="flex items-center justify-between">
-          <div>
-            <p className="text-xs uppercase tracking-wider text-base-content/50">
-              Country
-            </p>
+        <div className="rounded-xl bg-base-200 p-2 sm:p-3">
+          <p className="text-xs text-base-content/50">
+            Bowling
+          </p>
 
-            <p className="font-semibold">{player.origin}</p>
-          </div>
-
-          <div className="text-right">
-            <p className="text-xs uppercase tracking-wider text-base-content/50">
-              Role
-            </p>
-
-            <p className="font-semibold">{player.playerType}</p>
-          </div>
-        </div>
-
-        <div className="divider my-0"></div>
-
-        {/* Playing Style */}
-        <div>
-          <h3 className="mb-3 text-sm font-bold uppercase tracking-wider text-base-content/60">
-            Playing Style
-          </h3>
-
-          <div className="grid grid-cols-2 gap-3">
-            <div className="rounded-xl bg-base-200 p-3">
-              <p className="text-xs text-base-content/50">Batting</p>
-              <p className="mt-1 text-sm font-semibold">
-                {player.battingStyle}
-              </p>
-            </div>
-
-            <div className="rounded-xl bg-base-200 p-3">
-              <p className="text-xs text-base-content/50">Bowling</p>
-              <p className="mt-1 text-sm font-semibold">
-                {player.bowllingStyle}
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Price & Button */}
-        <div className="mt-2 flex items-center justify-between border-t border-base-200 pt-4">
-          <div>
-            <p className="text-xs text-base-content/50">Price</p>
-
-            <h2 className="text-2xl font-extrabold text-primary">
-              ${player.price.toLocaleString()}
-            </h2>
-          </div>
-
-          <button
-            onClick={() => handleSetCoin()}
-            className="btn btn-primary rounded-xl px-5">
-            
-            {isSelected === true ? "Selected" : "Choose player"}
-                       
-          </button>
+          <p className="mt-1 truncate text-xs font-semibold sm:text-sm">
+            {player.bowllingStyle}
+          </p>
         </div>
       </div>
     </div>
+
+    {/* Price & Button */}
+    <div className="mt-2 flex flex-col gap-3 border-t border-base-200 pt-4 sm:flex-row sm:items-center sm:justify-between">
+
+      <div>
+        <p className="text-xs text-base-content/50">
+          Price
+        </p>
+
+        <h2 className="text-xl font-extrabold text-primary sm:text-2xl">
+          ${player.price.toLocaleString()}
+        </h2>
+      </div>
+
+      <button
+        onClick={() => handleSetCoin()}
+        className="btn btn-primary w-full rounded-xl px-5 sm:w-auto"
+      >
+        {isSelected === true ? "Selected" : "Choose player"}
+      </button>
+    </div>
+  </div>
+</div>
   );
 };
 

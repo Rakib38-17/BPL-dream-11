@@ -1,6 +1,7 @@
 import Logo from "../assets/logo.png";
 import { HiMiniCurrencyDollar, HiBars3, HiXMark } from "react-icons/hi2";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Nav = ({ coin }: { coin: number }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -8,10 +9,8 @@ const Nav = ({ coin }: { coin: number }) => {
   return (
     <nav className="sticky top-0 z-50 border-b border-base-200 bg-base-100/90 shadow-sm backdrop-blur-md">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-
         {/* Desktop / Main Navbar */}
         <div className="flex h-20 items-center justify-between">
-
           {/* Logo */}
           <a href="/" className="flex items-center">
             <img
@@ -26,43 +25,38 @@ const Nav = ({ coin }: { coin: number }) => {
             <li>
               <a
                 href="/"
-                className="rounded-full bg-primary px-5 py-2.5 font-semibold text-primary-content transition-all hover:shadow-md"
-              >
+                className="rounded-full bg-primary px-5 py-2.5 font-semibold text-primary-content transition-all hover:shadow-md">
                 Home
               </a>
             </li>
 
             <li>
-              <a
-                href="#fixture"
-                className="rounded-full px-5 py-2.5 font-semibold text-base-content/70 transition-all hover:bg-primary/10 hover:text-primary"
-              >
-                Fixture
-              </a>
+               <Link
+                to="/Featuress"
+                className="rounded-full px-5 py-2.5 font-semibold text-base-content/70 transition-all hover:bg-primary/10 hover:text-primary">
+                Features
+              </Link>
             </li>
 
             <li>
               <a
                 href="#players"
-                className="rounded-full px-5 py-2.5 font-semibold text-base-content/70 transition-all hover:bg-primary/10 hover:text-primary"
-              >
+                className="rounded-full px-5 py-2.5 font-semibold text-base-content/70 transition-all hover:bg-primary/10 hover:text-primary">
                 Players
               </a>
             </li>
 
             <li>
-              <a
-                href="#schedule"
-                className="rounded-full px-5 py-2.5 font-semibold text-base-content/70 transition-all hover:bg-primary/10 hover:text-primary"
-              >
+              <Link
+                to="/schedule"
+                className="rounded-full px-5 py-2.5 font-semibold text-base-content/70 transition-all hover:bg-primary/10 hover:text-primary">
                 Schedule
-              </a>
+              </Link>
             </li>
           </ul>
 
           {/* Coin */}
           <div className="flex items-center gap-3">
-
             <div className="flex items-center gap-1 rounded-full border border-warning/20 bg-warning/10 px-4 py-2 shadow-sm">
               <HiMiniCurrencyDollar className="text-2xl text-warning" />
 
@@ -79,15 +73,13 @@ const Nav = ({ coin }: { coin: number }) => {
             <button
               onClick={() => setMenuOpen(!menuOpen)}
               className="btn btn-circle btn-ghost md:hidden"
-              aria-label="Toggle menu"
-            >
+              aria-label="Toggle menu">
               {menuOpen ? (
                 <HiXMark className="text-2xl" />
               ) : (
                 <HiBars3 className="text-2xl" />
               )}
             </button>
-
           </div>
         </div>
 
@@ -95,51 +87,44 @@ const Nav = ({ coin }: { coin: number }) => {
         {menuOpen && (
           <div className="border-t border-base-200 py-4 md:hidden">
             <ul className="flex flex-col gap-2">
-
               <li>
                 <a
                   href="/"
                   className="block rounded-xl bg-primary px-4 py-3 font-semibold text-primary-content"
-                  onClick={() => setMenuOpen(false)}
-                >
+                  onClick={() => setMenuOpen(false)}>
                   Home
                 </a>
               </li>
 
               <li>
-                <a
-                  href="#fixture"
+                <Link
+                  to="/Featuress"
                   className="block rounded-xl px-4 py-3 font-semibold hover:bg-base-200"
-                  onClick={() => setMenuOpen(false)}
-                >
-                  Fixture
-                </a>
+                  onClick={() => setMenuOpen(false)}>
+                  Feature
+                </Link>
               </li>
 
               <li>
                 <a
                   href="#players"
                   className="block rounded-xl px-4 py-3 font-semibold hover:bg-base-200"
-                  onClick={() => setMenuOpen(false)}
-                >
+                  onClick={() => setMenuOpen(false)}>
                   Players
                 </a>
               </li>
 
               <li>
-                <a
-                  href="#schedule"
+                <Link
+                  to="/Schedule"
                   className="block rounded-xl px-4 py-3 font-semibold hover:bg-base-200"
-                  onClick={() => setMenuOpen(false)}
-                >
+                  onClick={() => setMenuOpen(false)}>
                   Schedule
-                </a>
+                </Link>
               </li>
-
             </ul>
           </div>
         )}
-
       </div>
     </nav>
   );
