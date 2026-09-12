@@ -22,41 +22,42 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
-      <Nav coin={coin} />
+      <div className="min-h-screen bg-base-200">
+        <BrowserRouter>
+          <Nav coin={coin} />
 
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <Banner />
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <Banner />
 
-              <Suspense fallback={<h2>Loading...</h2>}>
-                <Players
-                  playerPromise={playerPromise}
-                  coin={coin}
-                  setCoin={setCoin}
-                />
-              </Suspense>
+                  <Suspense fallback={<h2>Loading...</h2>}>
+                    <Players
+                      playerPromise={playerPromise}
+                      coin={coin}
+                      setCoin={setCoin}
+                    />
+                  </Suspense>
 
-              <Footer />
-            </>
-          }
-        />
+                  <Footer />
+                </>
+              }
+            />
 
-        <Route
-          path="/Schedule"
-          element={<Schedule />}       
-        />
-        {/* FIXTURE PAGE */}
-        <Route
-          path="/Featuress"
-          element={<Feature />}
-        />
-       
-      </Routes>
-    </BrowserRouter>
+            <Route
+              path="/Schedule"
+              element={<Schedule />}
+            />
+            {/* FIXTURE PAGE */}
+            <Route
+              path="/Featuress"
+              element={<Feature />}
+            />
+          </Routes>
+        </BrowserRouter>
+      </div>
     </>
   );
 }
